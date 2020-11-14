@@ -26,5 +26,5 @@ export DEVICE_COMMON=sdm660-common
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-EVO_ROOT="$MY_DIR"/../../..
-DEVICE_BLOB_ROOT="$EVO_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
+TOXYC_ROOT="$MY_DIR"/../../..
+DEVICE_BLOB_ROOT="$TOXYC_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary
